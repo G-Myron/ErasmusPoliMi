@@ -1,4 +1,54 @@
 
-.main{
-    background-color: rebeccapurple;
+:root{
+    font-size: 18px;
 }
+
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+section {
+    color: black;
+    background-color: #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+legend {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+a,p {
+    display: block;
+    color: black;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 0 25% .8rem;
+    transition: .5s;
+}
+
+a:hover {
+    scale: 1.1;
+}
+
+p {
+    color: white;
+    background-color: black;
+}
+
+
