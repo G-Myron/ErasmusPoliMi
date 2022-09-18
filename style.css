@@ -3,11 +3,11 @@
     font-size: 18px;
 }
 
-body, html {
-    width: 100%;
+body {
     background-color: #333;
     color: white;
     margin: 0;
+    padding: 0 5rem;
 }
 
 .title {
@@ -43,9 +43,8 @@ a,p {
     border-radius: 10px;
     padding: 3px;
     margin: 0 25% .8rem;
-    transition: .5s;
+    transition: .3s;
 }
-
 a:hover {
     scale: 1.1;
 }
@@ -53,6 +52,7 @@ a:hover {
 p {
     color: white;
     background-color: black;
+    cursor: default;
 }
 
 
