@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #333;
+    background-color: #444;
     color: white;
     margin: 0;
     padding: 0 5rem;
@@ -16,18 +16,31 @@ body {
 
 section {
     color: black;
-    background-color: #ccc;
+    background-color: #bbb;
+    height: 1.6rem;
+    overflow-y: hidden;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
-    transition: .3s;
+    transition: 1s;
 }
 section:hover {
-    background-color: #888;
+    background-color: #000;
+    height: 10rem;
+    overflow-y: auto;
+}
+section:hover legend {
+    color: purple;
+}
+section:hover p {
+    background-color: purple;
+}
+section:hover a {
+    border: purple 5px solid;
 }
 
 legend {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 1rem;
@@ -36,7 +49,7 @@ legend {
 a,p {
     display: block;
     color: black;
-    background-color: white;
+    background-color: #fff;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
