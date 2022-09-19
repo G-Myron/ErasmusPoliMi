@@ -16,7 +16,7 @@ body {
 
 section {
     color: black;
-    background-color: #bbb;
+    background-color: #ccc;
     height: 1.6rem;
     overflow-y: hidden;
     padding: 1rem;
@@ -36,7 +36,7 @@ section:hover p {
     background-color: purple;
 }
 section:hover a {
-    border: purple 5px solid;
+    border: purple 3px solid;
 }
 
 legend {
@@ -49,13 +49,14 @@ legend {
 a,p {
     display: block;
     color: black;
-    background-color: #fff;
+    background-color: white;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+    border: transparent 3px solid;
     border-radius: 10px;
     padding: 3px;
-    margin: 0 23% .8rem;
+    margin: 0 20% .6rem;
     transition: .3s;
 }
 a:hover {

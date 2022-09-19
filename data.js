@@ -1,10 +1,11 @@
 var data = [
-    {"title" : "General",
+    /*{
+        "title" : "General",
         "lines" : {
             "My Guide for Erasmus Patras-Milan in spring 2023" : "https://g-myron.github.io/ErasmusPoliMi/",
             "Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο" : null,
         }
-    },
+    }, */
     {"title" : "Calendars",
         "lines" : {
             "PoliMi" : "https://www.polimi.it/fileadmin/user_upload/Studenti/calendario-accademico/2022-2023/calendario-accademico-2022-2023_ING_upd_12-7-2022.pdf",
