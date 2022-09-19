@@ -21,11 +21,47 @@ data.forEach((data) => {
 })
 
 
-document.querySelectorAll("section").forEach( sect=> {
+document.querySelectorAll("section").forEach( (sect) => {
+
+    sect.originalHeight = sect.scrollHeight - 36; // 36px = 2rem
+
+    sect.onmouseenter =  sect.ontouchstart = ()=> {
+        sect.classList.toggle('hovered');
+        sect.style.height = sect.originalHeight +"px";
+    };
+    sect.ontransitionend = ()=> {
+        if( sect.classList.contains('hovered') || sect.classList.contains('clicked') )
+            sect.style.height = sect.originalHeight +"px";
+    }
+    sect.onmouseleave =  sect.ontouchend = ()=> {
+        sect.classList.toggle('hovered');
+        if( !sect.classList.contains('clicked'))
+            sect.style.height = '';
+        else sect.style.height = sect.originalHeight + "px";
+    };
     sect.onclick = ()=> {
-        if (sect.getAttribute("style")===null || !sect.getAttribute("style").includes('height: auto'))
-            sect.setAttribute('style', 'height: auto;');
-        else sect.setAttribute('style', '');
+        openFull(sect);
     };
 })
+
+
+function openFull(section) {
+    section.classList.toggle('clicked');
+    let height = section.originalHeight+'px';
+    section.style.setProperty("height", (section.style.getPropertyValue("height")!==height)? height:'')
+}
+
+function openAll() {
+    document.querySelectorAll("section").forEach(sect => {
+        sect.classList.remove("clicked");
+        openFull(sect);
+    });
+}
+
+function closeAll() {
+    document.querySelectorAll("section").forEach(sect => {
+        sect.classList.remove("clicked");
+        sect.style.height = "";
+    });
+}
 
