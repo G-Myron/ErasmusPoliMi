@@ -24,6 +24,9 @@ var data = {
         "spotahome" : "https://www.spotahome.com/s/milan--italy",
         "Uniplaces" : "https://www.uniplaces.com/accommodation/milan",
     },
+    "Italian Language" : {
+        "Language Transfer":"https://www.languagetransfer.org/italian",
+    },
 }
 
 
