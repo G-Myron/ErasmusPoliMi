@@ -11,15 +11,38 @@
 <body>
     <h1 class="title">Info for Erasmus at PoliMi 2023</h1>
     <nav>
-        <button onclick="openAll()">Open All</button>
-        <button onclick="closeAll()">Close All</button>
+        <div class="sections-handler">
+            <button id="open-all" onclick="openAll()">Open All</button>
+            <button id="close-all" onclick="closeAll()">Close All</button>
+        </div>
+        <button id="save-json" onclick="saveData()">Download JSON file</button>
     </nav>
     <div class="main">
         <section id="general">
             <legend>General</legend>
-            <a href="https://g-myron.github.io/ErasmusPoliMi/">My Guide for Erasmus Patras-Milan in spring 2023</a>
-            <p>Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο</p>
+            <div class="lines">
+                <a href="https://g-myron.github.io/ErasmusPoliMi/">My Guide for Erasmus Patras-Milan in spring 2023</a>
+                <p>Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο</p>
+                <p>Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..</p>
+            </div>
         </section>
+
+        <div class="modal" style="display: none;">
+            <div class="modal-content">
+                <div>
+                    <label for="line-text">text</label>
+                    <input type="text" name="line-text" id="line-text">
+                </div>
+                <div>
+                    <label for="line-link">link</label>
+                    <input type="text" name="line-link" id="line-link">
+                </div>
+                <div>
+                    <button onclick="submitCancel()" class="cancel-btn">Cancel</button>
+                    <button onclick="submitLine()" class="submit-btn">OK</button>
+                </div>
+            </div>
+        </div>
 
     </div>
 </body>

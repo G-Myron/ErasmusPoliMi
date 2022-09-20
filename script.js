@@ -1,24 +1,40 @@
 const mainDiv = document.querySelector(".main");
+const modal = document.querySelector(".modal");
+var sectionTitle = null;
 
-data.forEach((data) => {
+if(sessionStorage.data !== undefined) data = JSON.parse(sessionStorage.data);
+//sessionStorage.clear();
+
+for(let sectionData in data) {
     let section = document.createElement("section");
     let legend = document.createElement("legend");
+    let div = document.createElement("div");
 
-    section.id = data.title.toLowerCase().replace(" ","-");
-    legend.innerHTML = data.title;
+    section.id = sectionData.toLowerCase().replace(" ","-");
+    legend.innerHTML = sectionData;
+    div.className = "lines";
 
-    mainDiv.appendChild(section);
-    section.appendChild(legend);
+    mainDiv.appendChild(section);   // Add Section
+    section.appendChild(legend);    // Add Legend
+    section.appendChild(div);    // Add Div
 
-    for (let line in data.lines) {
-        let elmt = document.createElement( data.lines[line]===null? "p": "a" );
-        elmt.href = data.lines[line];
-        elmt.target =  "_blank";
+    for (let line in data[sectionData]) {
+        let elmt = document.createElement( data[sectionData][line]===null? "p": "a" );
+        elmt.href = data[sectionData][line];
+        elmt.target = "_blank";
 
         elmt.innerText = line;
-        section.appendChild(elmt);
+        div.appendChild(elmt);
     }
-})
+
+    let addButton = document.createElement("button");
+    addButton.textContent = "+";
+    addButton.onclick = ()=> {
+        modal.style.display = "";
+        sectionTitle = sectionData;
+    };
+    div.appendChild(addButton);
+};
 
 
 document.querySelectorAll("section").forEach( (sect) => {
@@ -39,16 +55,29 @@ document.querySelectorAll("section").forEach( (sect) => {
             sect.style.height = '';
         else sect.style.height = sect.originalHeight + "px";
     };
-    sect.onclick = ()=> {
-        openFull(sect);
+    sect.onclick = (e)=> {
+        openFull(sect, e);
     };
 })
 
 
-function openFull(section) {
-    section.classList.toggle('clicked');
-    let height = section.originalHeight+'px';
-    section.style.setProperty("height", (section.style.getPropertyValue("height")!==height)? height:'')
+function submitCancel() {
+    modal.style.display = "none";   // Close modal
+    sessionStorage.setItem("data", JSON.stringify(data));   // Save data to Session storage
+}
+function submitLine() {
+    let text = document.querySelector("#line-text").value;
+    let link = document.querySelector("#line-link").value;
+    document.querySelector("#line-text").value = document.querySelector("#line-link").value = "";
+    data[sectionTitle][text] = link? link: null;
+    submitCancel();
+}
+
+function openFull(sectionElmt, e=null) {
+    if(e && (e.target.tagName==="BUTTON" || e.target.tagName==="A")) return;
+    sectionElmt.classList.toggle('clicked');
+    let height = sectionElmt.originalHeight+'px';
+    sectionElmt.style.setProperty("height", (sectionElmt.style.getPropertyValue("height")!==height)? height:'')
 }
 
 function openAll() {
@@ -64,4 +93,16 @@ function closeAll() {
         sect.style.height = "";
     });
 }
+
+// DOWNLOAD A FILE
+function download(content, fileName, contentType) {
+    var a = document.createElement("a");
+    var file = new Blob([content], {type: contentType});
+    a.href = URL.createObjectURL(file);
+    a.download = fileName;
+    a.click();
+}
+
+const saveData = ()=> download("var data = "+JSON.stringify(data), 'data.js', 'text/plain');
+
 
