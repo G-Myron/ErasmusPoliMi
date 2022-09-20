@@ -2,8 +2,8 @@ const mainDiv = document.querySelector(".main");
 const modal = document.querySelector(".modal");
 var sectionTitle = null;
 
-if(sessionStorage.data !== undefined) data = JSON.parse(sessionStorage.data);
-//sessionStorage.clear();
+sessionStorage.clear();
+if(sessionStorage.erasmusJSON !== undefined) data = JSON.parse(sessionStorage.erasmusJSON);
 
 for(let sectionData in data) {
     let section = document.createElement("section");
@@ -63,7 +63,7 @@ document.querySelectorAll("section").forEach( (sect) => {
 
 function submitCancel() {
     modal.style.display = "none";   // Close modal
-    sessionStorage.setItem("data", JSON.stringify(data));   // Save data to Session storage
+    sessionStorage.setItem("erasmusJSON", JSON.stringify(data));   // Save data to Session storage
 }
 function submitLine() {
     let text = document.querySelector("#line-text").value;
@@ -94,7 +94,9 @@ function closeAll() {
     });
 }
 
+
 // DOWNLOAD A FILE
+
 function download(content, fileName, contentType) {
     var a = document.createElement("a");
     var file = new Blob([content], {type: contentType});

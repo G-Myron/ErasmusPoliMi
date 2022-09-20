@@ -37,8 +37,10 @@ nav {
 nav .sections-handler {
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 nav #save-json {
+    max-width: 10rem;
     margin-right: 1rem;
 }
 
@@ -68,10 +70,9 @@ section {
 }
 section:hover {
     background-color: #000;
-    /* height: 10rem;*/
-    overflow-y: auto;
-    -ms-overflow-style: none; /*IE and Edge*/
-    scrollbar-width: none; /*Firefox*/
+    /*overflow-y: auto;
+    -ms-overflow-style: none; *IE and Edge*
+    scrollbar-width: none; *Firefox*/
 }section:hover::-webkit-scrollbar {display: none;}
 
 section:hover legend {
@@ -153,11 +154,15 @@ section button:hover {
     display: grid;
     gap: 1.5rem;
     align-content: center;
-    justify-content: center;
-    width: 20rem;
+    /* justify-content: center; */
+    width: 40rem;
     height: 20rem;
     border-radius: 1rem;
     background-image: linear-gradient( 0deg, black, purple, black);
+}
+.modal-content > div {
+    display: flex;
+    justify-content: center;
 }
 .modal label {
     font-size: 1rem;
@@ -165,19 +170,29 @@ section button:hover {
 .modal input {
     font-size: 1rem;
     border-radius: .5rem;
+    min-width: 50%;
     padding: 0 .5rem;
 }
 .modal .form-btns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-top: 1rem;
 }
 .modal button {
     font-size: 1.1rem;
     border: black 3px solid;
     background-color: #800;
 }
+.modal button:hover {
+    scale: none;
+    transform: skew(5deg, 5deg);
+}
 .modal .submit-btn {
     background-color: #080;
+}
+.modal .submit-btn:hover {
+    scale: none;
+    transform: skew(5deg, -5deg);
 }
 
 
