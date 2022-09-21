@@ -154,21 +154,26 @@ section button:hover {
     display: grid;
     gap: 1.5rem;
     align-content: center;
-    /* justify-content: center; */
     width: 40rem;
-    height: 20rem;
-    border-radius: 1rem;
+    min-height: 20rem;
+    resize: vertical;
+    overflow-y: auto;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    border: .5rem double #404;
     background-image: linear-gradient( 0deg, black, purple, black);
 }
 .modal-content > div {
     display: flex;
     justify-content: center;
+    gap: 1rem;
 }
 .modal label {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 .modal input {
-    font-size: 1rem;
+    font-size: 1.1rem;
     border-radius: .5rem;
     min-width: 50%;
     padding: 0 .5rem;
@@ -193,6 +198,13 @@ section button:hover {
 .modal .submit-btn:hover {
     scale: none;
     transform: skew(5deg, -5deg);
+}
+
+.modal-content iframe {
+    min-width: 75%;
+    resize: both;
+    overflow: auto;
+    margin: 0 auto;
 }
 
 

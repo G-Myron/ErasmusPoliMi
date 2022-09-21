@@ -2,7 +2,7 @@ const mainDiv = document.querySelector(".main");
 const modal = document.querySelector(".modal");
 var sectionTitle = null;
 
-sessionStorage.clear();
+// sessionStorage.clear();
 if(sessionStorage.erasmusJSON !== undefined) data = JSON.parse(sessionStorage.erasmusJSON);
 
 for(let sectionData in data) {
@@ -61,15 +61,20 @@ document.querySelectorAll("section").forEach( (sect) => {
 })
 
 
+// Modal Functions
+const lineText = document.querySelector("#line-text");
+const lineLink = document.querySelector("#line-link");
+const iFrame = document.querySelector(".modal-content iframe");
+
+lineLink.oninput = ()=> iFrame.src = lineLink.value;
+
 function submitCancel() {
+    iFrame.src = lineText.value = lineLink.value = "";
     modal.style.display = "none";   // Close modal
     sessionStorage.setItem("erasmusJSON", JSON.stringify(data));   // Save data to Session storage
 }
 function submitLine() {
-    let text = document.querySelector("#line-text").value;
-    let link = document.querySelector("#line-link").value;
-    document.querySelector("#line-text").value = document.querySelector("#line-link").value = "";
-    data[sectionTitle][text] = link? link: null;
+    data[sectionTitle][lineText.value] = lineLink.value? lineLink.value: null;
     submitCancel();
 }
 
