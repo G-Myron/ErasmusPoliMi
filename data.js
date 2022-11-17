@@ -12,6 +12,7 @@ var data = {
     "PoliMi Info" : {
         "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
         "Trovare casa":"https://www.poliorientami.polimi.it/scopri-il-politecnico/trovare-casa/",
+        "Buddy Program":"https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
     },
     "Housing" : {
         "Casa.it" : "https://www.casa.it/affitto/residenziale/milano?sortType=price_asc",
@@ -32,7 +33,7 @@ var data = {
         "PoliMi Residenze":"https://www.residenze.polimi.it/",
     },
     "Air Tickets" : {
-        "Our 1+1 tickets" : "Booking Confirmation.pdf",
+        "Our 1+1 tickets" : "./static/Booking Confirmation.pdf",
     },
     "Italian Language" : {
         "Language Transfer":"https://www.languagetransfer.org/italian",
