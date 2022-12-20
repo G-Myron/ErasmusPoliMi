@@ -9,6 +9,9 @@ var data = {
         "PoliMi School of Industrial and Information Engineering" : "https://www.ingindinf.polimi.it/fileadmin/user_upload/scuola/calendario_accademico/Calendario_2022-23_Agg.200622_3I_completo.pdf",
         "HMTY" : "https://www.upatras.gr/wp-content/uploads/2022/08/upat-2022-2023.pdf",
     },
+    "Bureaucracy" : {
+        "Οδηγίες για erasmusplus.upatras.gr" : "https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2"
+    }
     "PoliMi Info" : {
         "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
         "Trovare casa":"https://www.poliorientami.polimi.it/scopri-il-politecnico/trovare-casa/",
