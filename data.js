@@ -1,11 +1,11 @@
 var data = {
-    /*
     "General" : {
         "My Guide for Erasmus Patras-Milan in spring 2023" : "https://g-myron.github.io/ErasmusPoliMi/",
         "Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο" : null,
-    }, */
+        "Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..":null,
+    },
     "Bureaucracy" : {
-        "Οδηγίες για erasmusplus.upatras.gr" : "https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2"
+        "Οδηγίες για erasmusplus.upatras.gr" : "https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2",
     },
     "Calendars" : {
         "PoliMi" : "https://www.polimi.it/fileadmin/user_upload/Studenti/calendario-accademico/2022-2023/calendario-accademico-2022-2023_ING_upd_12-7-2022.pdf",
