@@ -4,6 +4,10 @@ var data = {
         "Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο" : null,
         "Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..":null,
     },
+    "Courses" : {
+        "PoliMi" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do",
+        "UPatras" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
+    },
     "Bureaucracy" : {
         "Οδηγίες για erasmusplus.upatras.gr" : "https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2",
     },
