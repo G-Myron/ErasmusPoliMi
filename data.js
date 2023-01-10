@@ -5,7 +5,7 @@ var data = {
         "Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..":null,
     },
     "Courses" : {
-        "PoliMi" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do",
+        "PoliMi" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=481&ac_ins=0&k_indir=T2A&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&sede=MI",
         "UPatras" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
     },
     "Bureaucracy" : {
