@@ -6,6 +6,7 @@ var data = {
     },
     "Courses" : {
         "PoliMi" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=481&ac_ins=0&k_indir=T2A&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&sede=MI",
+        "PoliMi search" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerInsegnamentoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=347&ac_ins=0&k_indir=N1L&lang=EN&tipoCorso=M&semestre=2&tipoInsegnamento=ALL_TIPO_INSEGNAMENTO&sede=MI&aree=-1",
         "UPatras" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
     },
     "Bureaucracy" : {
