@@ -4,6 +4,11 @@ var data = {
         "Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο" : null,
         "Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..":null,
     },
+    "Courses" : {
+        "PoliMi" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=481&ac_ins=0&k_indir=T2A&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&sede=MI",
+        "PoliMi search" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerInsegnamentoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=347&ac_ins=0&k_indir=N1L&lang=EN&tipoCorso=M&semestre=2&tipoInsegnamento=ALL_TIPO_INSEGNAMENTO&sede=MI&aree=-1",
+        "UPatras" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
+    },
     "Useful files" : {
         "Οδηγίες για erasmusplus.upatras.gr" : "https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2",
         "PoliMi Acceptance" : "./static/Gmail - CONFIRMATION OF ACCEPTANCE.pdf",

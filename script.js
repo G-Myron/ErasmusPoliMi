@@ -40,21 +40,25 @@ for(let sectionData in data) {
 document.querySelectorAll("section").forEach( (sect) => {
 
     sect.originalHeight = sect.scrollHeight - 36; // 36px = 2rem
-
+    
+    /*
     sect.onmouseenter =  sect.ontouchstart = ()=> {
         sect.classList.toggle('hovered');
         sect.style.height = sect.originalHeight +"px";
     };
+    */
     sect.ontransitionend = ()=> {
         if( sect.classList.contains('hovered') || sect.classList.contains('clicked') )
             sect.style.height = sect.originalHeight +"px";
     }
+    /*
     sect.onmouseleave =  sect.ontouchend = ()=> {
         sect.classList.toggle('hovered');
         if( !sect.classList.contains('clicked'))
             sect.style.height = '';
         else sect.style.height = sect.originalHeight + "px";
     };
+    */
     sect.onclick = (e)=> {
         openFull(sect, e);
     };
