@@ -4,6 +4,11 @@ var data = {
         "Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο" : null,
         "Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..":null,
     },
+    "Deadlines" : {
+        "Buddy 11-25" : "https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
+        "Language 20-6" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes/before-arrival#c58234",
+        "Residence --" : "https://www.residenze.polimi.it/en/",
+    },
     "Courses" : {
         "PoliMi" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=481&ac_ins=0&k_indir=T2A&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&sede=MI",
         "PoliMi search" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerInsegnamentoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=347&ac_ins=0&k_indir=N1L&lang=EN&tipoCorso=M&semestre=2&tipoInsegnamento=ALL_TIPO_INSEGNAMENTO&sede=MI&aree=-1",
@@ -21,7 +26,7 @@ var data = {
     },
     "PoliMi Info" : {
         "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
-        "Trovare casa":"https://www.poliorientami.polimi.it/scopri-il-politecnico/trovare-casa/",
+        "Residence halls":"https://www.residenze.polimi.it/en/",
         "Buddy Program":"https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
     },
     "Housing" : {
