@@ -6,8 +6,15 @@ var data = {
     },
     "Deadlines" : {
         "Buddy 11-25" : "https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
-        "Language 20-6" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes/before-arrival#c58234",
+        "Language 20-6" : "https://www13.ceda.polimi.it/corsilingua/corsilingua/controller/candidato/CorsiCandidato.do?jaf_currentWFID=main&EVN_SHOW=evento",
         "Residence --" : "https://www.residenze.polimi.it/en/",
+    },
+    "PoliMi Info" : {
+        "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
+        "Online Services" : "https://aunicalogin.polimi.it/aunicalogin/getservizio.xml?id_servizio=376&lang=EN",
+        "Buddy Program":"https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
+        "Language" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes/before-arrival#c58234",
+        "Residence halls":"https://www.residenze.polimi.it/en/",
     },
     "Learning Agreement" : {
         "Platform" : "https://learning-agreement.eu/dashboard",
@@ -24,11 +31,6 @@ var data = {
         "PoliMi" : "https://www.polimi.it/fileadmin/user_upload/Studenti/calendario-accademico/2022-2023/calendario-accademico-2022-2023_ING_upd_12-7-2022.pdf",
         "PoliMi School of Industrial and Information Engineering" : "https://www.ingindinf.polimi.it/fileadmin/user_upload/scuola/calendario_accademico/Calendario_2022-23_Agg.200622_3I_completo.pdf",
         "HMTY" : "https://www.upatras.gr/wp-content/uploads/2022/08/upat-2022-2023.pdf",
-    },
-    "PoliMi Info" : {
-        "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
-        "Residence halls":"https://www.residenze.polimi.it/en/",
-        "Buddy Program":"https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
     },
     "Housing" : {
         "Casa.it" : "https://www.casa.it/affitto/residenziale/milano?sortType=price_asc",
