@@ -5,9 +5,8 @@ var data = {
         "Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..":null,
     },
     "Deadlines" : {
-        "Buddy 11-25" : "https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
-        "Language 20-6" : "https://www13.ceda.polimi.it/corsilingua/corsilingua/controller/candidato/CorsiCandidato.do?jaf_currentWFID=main&EVN_SHOW=evento",
-        "Residence --" : "https://www.residenze.polimi.it/en/",
+        "Buddy 11-25" : "https://www6.ceda.polimi.it/bandi/bandi/controller/Bandi.do?evn_anteprima_bando=evento&id_bando=2356&jaf_currentWFID=main&polij_step=7&__pj0=0&__pj1=32826c1e8534a9530ce1d2cdccbed470",
+        "Language test 20-6" : "https://www13.ceda.polimi.it/corsilingua/corsilingua/controller/candidato/IscrizioniCandidato.do",
     },
     "PoliMi Info" : {
         "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
