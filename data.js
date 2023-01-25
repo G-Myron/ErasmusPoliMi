@@ -22,7 +22,7 @@ var data = {
         "UPatras courses" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
     },
     "Useful files" : {
-        "Οδηγίες για erasmusplus.upatras.gr" : "https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2",
+        "Οδηγίες για erasmusplus.upatras.gr" : "./static/Οδηγίες για τα επόμενα βήματα στην πλατφόρμα αιτήσεων Erasmus για Σπουδές.pdf",//"https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2",
         "PoliMi Acceptance" : "./static/Gmail - CONFIRMATION OF ACCEPTANCE.pdf",
         "PoliMi Next Steps" : "./static/Gmail - Steps after the acceptance.pdf",
     },
