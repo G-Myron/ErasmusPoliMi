@@ -114,6 +114,6 @@ function download(content, fileName, contentType) {
     a.click();
 }
 
-const saveData = ()=> download("var data = "+JSON.stringify(data), 'data.js', 'text/plain');
+// const saveData = ()=> download("var data = "+JSON.stringify(data), 'data.js', 'text/plain');
 
 
