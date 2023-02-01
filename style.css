@@ -27,11 +27,12 @@ nav {
     top: 0;
     display: grid;
     justify-content: center;
+    gap: 1rem;
     grid-template-columns: 1fr auto;
     min-height: 2rem;
     background-color: #435c;
     margin: 1rem 0;
-    padding: .5rem;
+    padding: .5rem 1.5rem;
     z-index: 50;
 }
 nav .sections-handler {
@@ -39,10 +40,10 @@ nav .sections-handler {
     justify-content: center;
     gap: 1rem;
 }
-nav #save-json {
+/* nav #save-json {
     max-width: 10rem;
     margin-right: 1rem;
-}
+} */
 
 button {
     background-color: #000;
@@ -114,6 +115,18 @@ a,p {
 }
 a:hover {
     scale: 1.1;
+}
+
+button > a {
+    display: initial;
+    color: inherit;
+    background-color: inherit;
+    cursor: inherit;
+    font-weight: inherit;
+    border: unset;
+    padding: unset;
+    margin: unset;
+    transition: unset;
 }
 
 p {
