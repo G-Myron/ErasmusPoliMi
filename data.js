@@ -4,20 +4,11 @@ var data = {
         "Τα κείμενα είναι σε μαύρο φόντο, τα links σε άσπρο" : null,
         "Καινούριες πληροφορίες που προστίθενται από τον χρήστη αποθηκεύονται μόνο προσωρινά. Για μόνιμη αποθήκευση κατεβάστε το JSON αρχείο από το κουμπί επάνω δεξιά..":null,
     },
-    "Deadlines" : {
-        "Language test 20-6" : "https://www13.ceda.polimi.it/corsilingua/corsilingua/controller/candidato/IscrizioniCandidato.do",
-    },
     "Useful files-links" : {
         "Οδηγίες για erasmusplus.upatras.gr" : "./static/Επόμενα βήματα.pdf", //"https://mail1.upnet.gr/?_task=mail&_action=get&_mbox=INBOX&_uid=1669&_token=cVf8lX1lkYiuXBHj8SCeGllbIu1cFQqF&_part=2",
         "PoliMi Newsletter" : "http://www.politamtam.polimi.it/index_eng.php",
         "PoliMi Acceptance" : "./static/Gmail - CONFIRMATION OF ACCEPTANCE.pdf",
         "PoliMi Next Steps" : "./static/Gmail - Steps after the acceptance.pdf",
-    },
-    "Learning Agreement" : {
-        "Platform" : "https://learning-agreement.eu/dashboard",
-        "PoliMi courses" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=481&ac_ins=0&k_indir=T2A&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&sede=MI",
-        "PoliMi courses search" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerInsegnamentoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=347&ac_ins=0&k_indir=N1L&lang=EN&tipoCorso=M&semestre=2&tipoInsegnamento=ALL_TIPO_INSEGNAMENTO&sede=MI&aree=-1",
-        "UPatras courses" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
     },
     "PoliMi Info" : {
         "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
@@ -26,13 +17,19 @@ var data = {
         "Language" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes/before-arrival#c58234",
         "Residence halls":"https://www.residenze.polimi.it/en/",
     },
+    "Learning Agreement" : {
+        "Platform" : "https://learning-agreement.eu/dashboard",
+        "PoliMi courses" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=481&ac_ins=0&k_indir=T2A&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&sede=MI",
+        "PoliMi courses search" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerInsegnamentoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=347&ac_ins=0&k_indir=N1L&lang=EN&tipoCorso=M&semestre=2&tipoInsegnamento=ALL_TIPO_INSEGNAMENTO&sede=MI&aree=-1",
+        "UPatras courses" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
+    },
+    "Plain Tickets" : {
+        "Our 1+1 tickets" : "./static/Booking Confirmation.pdf",
+    },
     "Calendars" : {
         "PoliMi" : "https://www.polimi.it/fileadmin/user_upload/Studenti/calendario-accademico/2022-2023/calendario-accademico-2022-2023_ING_upd_12-7-2022.pdf",
         "PoliMi School of Industrial and Information Engineering" : "https://www.ingindinf.polimi.it/fileadmin/user_upload/scuola/calendario_accademico/Calendario_2022-23_Agg.200622_3I_completo.pdf",
         "HMTY" : "https://www.upatras.gr/wp-content/uploads/2022/08/upat-2022-2023.pdf",
-    },
-    "Air Tickets" : {
-        "Our 1+1 tickets" : "./static/Booking Confirmation.pdf",
     },
     "Housing" : {
         "spotahome" : "https://www.spotahome.com/s/milan--italy?move-in=2023-02-12&sortBy=bestPrice",
