@@ -13,6 +13,10 @@ var data = {
         "PoliMi Acceptance" : "./static/Gmail - CONFIRMATION OF ACCEPTANCE.pdf",
         "PoliMi Next Steps" : "./static/Gmail - Steps after the acceptance.pdf",
     },
+    "Study Plan" : {
+        "Video" : "https://www.youtube.com/watch?v=Cx8Ni1whq9Q",
+        "Online Services > Career > Incoming student Study Plan" : null,
+    },
     "Learning Agreement" : {
         "Platform" : "https://learning-agreement.eu/dashboard",
         "PoliMi courses" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=481&ac_ins=0&k_indir=T2A&lang=EN&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&sede=MI",
