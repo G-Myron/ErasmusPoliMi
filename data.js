@@ -10,16 +10,13 @@ var data = {
         "PoliMi Acceptance" : "./static/Gmail - CONFIRMATION OF ACCEPTANCE.pdf",
         "PoliMi Next Steps" : "./static/Gmail - Steps after the acceptance.pdf",
     },
-    "Study Plan" : {
-        "Video" : "https://www.youtube.com/watch?v=Cx8Ni1whq9Q",
-        "Online Services > Career > Incoming student Study Plan" : null,
-    },
     "PoliMi Info" : {
         "Incoming Exchange Students" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes#c54050",
         "Online Services" : "https://aunicalogin.polimi.it/aunicalogin/getservizio.xml?id_servizio=376&lang=EN",
+        "Lecture recordings" : "https://www11.ceda.polimi.it/recman_frontend/recman_frontend/controller/ArchivioListActivity.do?jaf_currentWFID=4268920941653984437&EVN_SHOW_SCREEN=evento&polij_step=0&__pj0=0&__pj1=5b838a4db24397169c60f29161a3a7ed",
+        "WeBeep recordings" : "https://webeep.polimi.it/my/",
         "Buddy Program":"https://www.polimi.it/en/international-prospective-students/laurea-magistrale-programmes-equivalent-to-master-of-science/application-procedures/after-admission/buddy-program/",
         "Language" : "https://www.polimi.it/en/exchange-students-incoming/exchange-programmes/before-arrival#c58234",
-        "Residence halls":"https://www.residenze.polimi.it/en/",
     },
     "Learning Agreement" : {
         "Platform" : "https://learning-agreement.eu/dashboard",
@@ -27,8 +24,9 @@ var data = {
         "PoliMi courses search" : "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerInsegnamentoPublic.do?evn_default=EVENTO&aa=2022&k_cf=225&k_corso_la=347&ac_ins=0&k_indir=N1L&lang=EN&tipoCorso=M&semestre=2&tipoInsegnamento=ALL_TIPO_INSEGNAMENTO&sede=MI&aree=-1",
         "UPatras courses" : "https://www.ece.upatras.gr/index.php/el/undergraduate/under-courses.html",
     },
-    "Plain Tickets" : {
-        "Our 1+1 tickets" : "./static/Booking Confirmation.pdf",
+    "Study Plan" : {
+        "Video" : "https://www.youtube.com/watch?v=Cx8Ni1whq9Q",
+        "Online Services > Career > Incoming student Study Plan" : null,
     },
     "Calendars" : {
         "PoliMi" : "https://www.polimi.it/fileadmin/user_upload/Studenti/calendario-accademico/2022-2023/calendario-accademico-2022-2023_ING_upd_12-7-2022.pdf",
@@ -52,6 +50,9 @@ var data = {
         "Habyt" : "https://www.habyt.com/rooms/milan",
         "Affitto.it" : "https://www.affitto.it/affitti-Milano_MI.htm?orderby=prezzo-asc",
         "PoliMi Residenze" : "https://www.residenze.polimi.it/",
+    },
+    "Plain Tickets" : {
+        "Our 1+1 tickets" : "./static/Booking Confirmation.pdf",
     },
     "Italian Language" : {
         "Language Transfer":"https://www.languagetransfer.org/italian",
